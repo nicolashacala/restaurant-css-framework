@@ -63,16 +63,14 @@ nav{
     @include make-md-column(12);
     @include make-lg-column(12);
 
-    article {
+    article.container {
       @include make-xs-column(12);
       @include make-sm-column(12);
       @include make-md-column(4);
-      @include make-md-column-offset(1);
-      @include make-lg-column(3);
-      @include make-lg-column-offset(2);
+      @include make-lg-column(4);
 
-      div.panel.panel-variant{
-        @include panel-variant(#d01919, #f20508, #3f43d0, #000000);
+      div.panel.panel-variant {
+        @include panel-variant(#d01919, #222, #01B236, #000000);
       }
     }
 
@@ -80,15 +78,94 @@ nav{
 }
 
 .menu{
-  .container {
+  main.container {
     @include make-row();
-    .list-group {
-      @include make-lg-column(4);
-      @include make-lg-column-offset(2);
+    @include center-block;
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(12);
+    @include make-lg-column(12);
+
+    div.container {
+      .list-group {
+        @include make-lg-column(6);
+
+        .list-group-item {
+
+          .list-group-item-heading {
+
+            .spicy {
+              background-color: #761c19;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  header{
+    @include make-row();
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(10);
+    @include make-md-column-offset(1);
+    @include make-lg-column(6);
+    @include make-lg-column-offset(3);
+    margin-bottom: 40px;
+
+    h1{
+      @include center-block;
+      text-align: center;
+    }
+
+  }
+}
+.locations.container{
+  @include make-row();
+  @include make-lg-column(12);
+  margin-top: 50px;
+
+  header.container{
+    @include make-row();
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(10);
+    @include make-md-column-offset(1);
+    @include make-lg-column(6);
+    @include make-lg-column-offset(3);
+    margin-bottom: 40px;
+
+    h1{
+      @include center-block;
+      text-align: center;
+    }
+
+  }
+
+  article{
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(10);
+    @include make-md-column-offset(1);
+    @include make-lg-column(8);
+    @include make-lg-column-offset(0);
+    @include size(auto, 50vh);
+    @include center-block;
+    border: 1px solid #761c19;
+
+  }
+  aside{
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(12);
+    @include make-lg-column(4);
+
+    div.container{
+      @include make-row();
+      @include make-lg-column(12);
     }
   }
 }
-
 
 
 
