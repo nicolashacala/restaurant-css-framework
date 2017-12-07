@@ -1,0 +1,94 @@
+@import "bootstrap";
+
+html, body{
+  margin: 0;
+  padding: 0;
+  min-height:100%;
+  background-image: url('fried-chicken.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  @include make-lg-column(12);
+  margin-bottom: 0;
+  .navbar-brand{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    img{
+      width: 50px;
+    }
+  }
+
+}
+
+.jumbotron{
+  @include make-lg-column(12);
+  @include size(100%, 100vh);
+
+  }
+.home {
+
+
+  header{
+    @include make-row();
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(10);
+    @include make-md-column-offset(1);
+    @include make-lg-column(6);
+    @include make-lg-column-offset(3);
+    margin-bottom: 40px;
+
+    img{
+      @include img-responsive();
+      @include center-block;
+    }
+
+    h1{
+      @include center-block;
+      text-align: center;
+    }
+
+  }
+
+
+  main {
+    @include make-row();
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(12);
+    @include make-lg-column(12);
+
+    article {
+      @include make-xs-column(12);
+      @include make-sm-column(12);
+      @include make-md-column(4);
+      @include make-md-column-offset(1);
+      @include make-lg-column(3);
+      @include make-lg-column-offset(2);
+
+      div.panel.panel-variant{
+        @include panel-variant(#d01919, #f20508, #3f43d0, #000000);
+      }
+    }
+
+  }
+}
+
+.menu{
+  .container {
+    @include make-row();
+    .list-group {
+      @include make-lg-column(4);
+      @include make-lg-column-offset(2);
+    }
+  }
+}
+
+
+
+
