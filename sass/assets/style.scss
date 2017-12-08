@@ -122,6 +122,9 @@ nav{
 }
 .locations.container{
   @include make-row();
+  @include make-xs-column(12);
+  @include make-sm-column(12);
+  @include make-md-column(12);
   @include make-lg-column(12);
   margin-top: 50px;
 
@@ -143,22 +146,37 @@ nav{
   }
 
   article{
+    @include size(100%, 100%);
+    @include make-row();
     @include make-xs-column(12);
     @include make-sm-column(12);
     @include make-md-column(10);
     @include make-md-column-offset(1);
-    @include make-lg-column(8);
+    @include make-lg-column(7);
     @include make-lg-column-offset(0);
-    @include size(auto, 50vh);
     @include center-block;
-    border: 1px solid #761c19;
+    min-height: 400px;
+
+    div#map{
+      @include size(100%, 400px);
+      border: 1px solid #d01919;
+      border-radius: 10px;
+      margin-bottom: 40px;
+    }
 
   }
-  aside{
-    @include make-xs-column(12);
-    @include make-sm-column(12);
-    @include make-md-column(12);
+  aside.panel.panel-variant{
+    @include panel-variant(#d01919, #222, #01B236, #000000);
+    @include center-block;
+    @include make-row();
+    @include make-xs-column(10);
+    @include make-xs-column-offset(1);
+    @include make-sm-column(8);
+    @include make-sm-column-offset(2);
+    @include make-md-column(8);
+    @include make-md-column-offset(2);
     @include make-lg-column(4);
+    @include make-lg-column-offset(1);
 
     div.container{
       @include make-row();
