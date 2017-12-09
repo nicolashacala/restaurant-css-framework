@@ -3210,7 +3210,7 @@ tbody.collapse.in {
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #262626;
-  background-color: black; }
+  background-color: #01ae35; }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   color: #fff;
@@ -6301,5 +6301,193 @@ nav {
         .locations.container aside.panel.panel-variant div.container {
           float: left;
           width: 100%; } }
+
+section.photos.container-fluid {
+  margin-left: -15px;
+  margin-right: -15px; }
+  section.photos.container-fluid:before, section.photos.container-fluid:after {
+    content: " ";
+    display: table; }
+  section.photos.container-fluid:after {
+    clear: both; }
+  section.photos.container-fluid header.container {
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 40px; }
+    section.photos.container-fluid header.container:before, section.photos.container-fluid header.container:after {
+      content: " ";
+      display: table; }
+    section.photos.container-fluid header.container:after {
+      clear: both; }
+    @media (min-width: 768px) {
+      section.photos.container-fluid header.container {
+        float: left;
+        width: 100%; } }
+    @media (min-width: 992px) {
+      section.photos.container-fluid header.container {
+        float: left;
+        width: 83.3333333333%; } }
+    @media (min-width: 992px) {
+      section.photos.container-fluid header.container {
+        margin-left: 8.3333333333%; } }
+    @media (min-width: 1200px) {
+      section.photos.container-fluid header.container {
+        float: left;
+        width: 50%; } }
+    @media (min-width: 1200px) {
+      section.photos.container-fluid header.container {
+        margin-left: 25%; } }
+    section.photos.container-fluid header.container h1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+  section.photos.container-fluid main.photos.gallery.container {
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    section.photos.container-fluid main.photos.gallery.container:before, section.photos.container-fluid main.photos.gallery.container:after {
+      content: " ";
+      display: table; }
+    section.photos.container-fluid main.photos.gallery.container:after {
+      clear: both; }
+    @media (min-width: 768px) {
+      section.photos.container-fluid main.photos.gallery.container {
+        float: left;
+        width: 100%; } }
+    @media (min-width: 992px) {
+      section.photos.container-fluid main.photos.gallery.container {
+        float: left;
+        width: 100%; } }
+    @media (min-width: 1200px) {
+      section.photos.container-fluid main.photos.gallery.container {
+        float: left;
+        width: 100%; } }
+    section.photos.container-fluid main.photos.gallery.container div.gallery {
+      position: relative;
+      float: left;
+      width: 100%;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: 0%;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      min-height: 1px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      @media (min-width: 768px) {
+        section.photos.container-fluid main.photos.gallery.container div.gallery {
+          float: left;
+          width: 66.6666666667%; } }
+      @media (min-width: 768px) {
+        section.photos.container-fluid main.photos.gallery.container div.gallery {
+          margin-left: 16.6666666667%; } }
+      @media (min-width: 992px) {
+        section.photos.container-fluid main.photos.gallery.container div.gallery {
+          float: left;
+          width: 50%; } }
+      @media (min-width: 992px) {
+        section.photos.container-fluid main.photos.gallery.container div.gallery {
+          margin-left: 25%; } }
+      @media (min-width: 1200px) {
+        section.photos.container-fluid main.photos.gallery.container div.gallery {
+          float: left;
+          width: 25%; } }
+      @media (min-width: 1200px) {
+        section.photos.container-fluid main.photos.gallery.container div.gallery {
+          margin-left: 0%; } }
+
+nav.pagination.container {
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  nav.pagination.container:before, nav.pagination.container:after {
+    content: " ";
+    display: table; }
+  nav.pagination.container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    nav.pagination.container {
+      float: left;
+      width: 66.6666666667%; } }
+  @media (min-width: 768px) {
+    nav.pagination.container {
+      margin-left: 16.6666666667%; } }
+  @media (min-width: 992px) {
+    nav.pagination.container {
+      float: left;
+      width: 50%; } }
+  @media (min-width: 992px) {
+    nav.pagination.container {
+      margin-left: 25%; } }
+  @media (min-width: 1200px) {
+    nav.pagination.container {
+      float: left;
+      width: 33.3333333333%; } }
+  @media (min-width: 1200px) {
+    nav.pagination.container {
+      margin-left: 33.3333333333%; } }
 
 /*# sourceMappingURL=style.css.map */
