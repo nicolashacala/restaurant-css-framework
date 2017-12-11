@@ -185,31 +185,29 @@ nav{
   }
 }
 
-section.photos.container-fluid{
+main.photos.container{
   @include make-row();
+  @include center-block;
+
 
   header.container{
     @include make-row();
-    @include make-xs-column(12);
-    @include make-sm-column(12);
-    @include make-md-column(10);
-    @include make-md-column-offset(1);
-    @include make-lg-column(6);
-    @include make-lg-column-offset(3);
     margin-bottom: 40px;
 
     h1{
+      @include make-xs-column(12);
+      @include make-sm-column(12);
+      @include make-md-column(10);
+      @include make-md-column-offset(1);
+      @include make-lg-column(6);
+      @include make-lg-column-offset(3);
       @include center-block;
       text-align: center;
     }
 
   }
-  main.photos.gallery.container {
+  section.photos.gallery.container-fluid {
     @include make-row();
-    @include make-xs-column(12);
-    @include make-sm-column(12);
-    @include make-md-column(12);
-    @include make-lg-column(12);
 
     div.gallery {
       @include make-xs-column(12);
@@ -221,6 +219,8 @@ section.photos.container-fluid{
       @include make-lg-column(3);
       @include make-lg-column-offset(0);
     }
+
+
   }
 }
 
@@ -238,4 +238,70 @@ nav.pagination.container{
 
 }
 
+main.contact.container-fluid{
+  @include make-row();
+  @include center-block;
 
+  header.container{
+    @include make-row();
+    margin-bottom: 40px;
+
+    h1{
+      @include make-xs-column(12);
+      @include make-sm-column(12);
+      @include make-md-column(10);
+      @include make-md-column-offset(1);
+      @include make-lg-column(6);
+      @include make-lg-column-offset(3);
+      @include center-block;
+      text-align: center;
+    }
+
+  }
+
+  form{
+    @include make-xs-column(12);
+    @include make-sm-column(12);
+    @include make-md-column(10);
+    @include make-md-column-offset(1);
+    @include make-lg-column(10);
+    @include make-lg-column-offset(1);
+
+    div.form-group{
+      @include make-xs-column(12);
+      @include make-xs-column-offset(0);
+      @include make-sm-column(4);
+      @include make-sm-column-offset(1);
+      @include make-md-column(4);
+      @include make-md-column-offset(1);
+      @include make-lg-column(4);
+      @include make-lg-column-offset(1);
+    }
+
+    div.form-group.message{
+      @include make-row();
+      @include make-xs-column(12);
+      @include make-xs-column-offset(0);
+      @include make-sm-column(10);
+      @include make-sm-column-offset(1);
+      @include make-md-column(10);
+      @include make-md-column-offset(1);
+      @include make-lg-column(10);
+      @include make-lg-column-offset(1);
+    }
+
+    button.btn.btn-variant{
+      @include button-variant(#d01919, #01B236, #000000);
+      @include make-row();
+      @include make-xs-column(6);
+      @include make-xs-column-offset(3);
+      @include make-sm-column(2);
+      @include make-sm-column-offset(5);
+      @include make-md-column(2);
+      @include make-md-column-offset(5);
+      @include make-lg-column(2);
+      @include make-lg-column-offset(5);
+    }
+  }
+
+}
