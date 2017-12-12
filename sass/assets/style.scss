@@ -31,31 +31,34 @@ nav{
   @include center-block;
 
   }
+header.container{
+  @include make-row();
+  @include center-block;
+  margin-bottom: 40px;
+
+  img{
+    @include img-responsive();
+    @include center-block;
+  }
+
+  h1{
+    @include center-block;
+    @include make-xs-column(12);
+    @include make-xs-column-offset(0);
+    @include make-sm-column(12);
+    @include make-sm-column-offset(0);
+    @include make-md-column(10);
+    @include make-md-column-offset(1);
+    @include make-lg-column(10);
+    @include make-lg-column-offset(1);
+    background-color: #01B236;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+}
 .home {
 
-
-  header.container{
-    @include make-row();
-    @include center-block;
-    margin-bottom: 40px;
-
-    img{
-      @include img-responsive();
-      @include center-block;
-    }
-
-    h1{
-      @include center-block;
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(10);
-      @include make-md-column-offset(1);
-      @include make-lg-column(6);
-      @include make-lg-column-offset(3);
-      text-align: center;
-    }
-
-  }
 
 
   main.container {
@@ -73,7 +76,7 @@ nav{
       @include make-lg-column-offset(0);
 
       div.panel.panel-variant {
-        @include panel-variant(#d01919, #222, #01B236, #000000);
+        @include panel-variant(#d01919, #d01919, #01B236, #000000);
       }
     }
 
@@ -83,23 +86,6 @@ nav{
 main.menu.container {
   @include make-row();
   @include center-block;
-
-  header.container{
-    @include make-row();
-    margin-bottom: 40px;
-
-    h1{
-      @include center-block;
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(10);
-      @include make-md-column-offset(1);
-      @include make-lg-column(6);
-      @include make-lg-column-offset(3);
-      text-align: center;
-    }
-
-  }
 
   section.container {
     @include make-row();
@@ -137,23 +123,6 @@ section.locations.container{
   @include make-row();
   @include center-block;
 
-  header.container{
-    @include make-row();
-    margin-bottom: 40px;
-
-    h1{
-      @include center-block;
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(10);
-      @include make-md-column-offset(1);
-      @include make-lg-column(6);
-      @include make-lg-column-offset(3);
-      text-align: center;
-    }
-
-  }
-
   article{
     @include size(100%, 100%);
     @include make-xs-column(12);
@@ -187,6 +156,11 @@ section.locations.container{
     @include make-lg-column(4);
     @include make-lg-column-offset(1);
 
+    ul{
+      list-style-type: none;
+      padding: 0;
+    }
+
   }
 }
 
@@ -194,23 +168,6 @@ main.photos.container{
   @include make-row();
   @include center-block;
 
-
-  header.container{
-    @include make-row();
-    margin-bottom: 40px;
-
-    h1{
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(10);
-      @include make-md-column-offset(1);
-      @include make-lg-column(6);
-      @include make-lg-column-offset(3);
-      @include center-block;
-      text-align: center;
-    }
-
-  }
   section.photos.gallery.container-fluid {
     @include make-row();
 
@@ -247,23 +204,6 @@ main.contact.container-fluid{
   @include make-row();
   @include center-block;
 
-  header.container{
-    @include make-row();
-    margin-bottom: 40px;
-
-    h1{
-      @include make-xs-column(12);
-      @include make-sm-column(12);
-      @include make-md-column(10);
-      @include make-md-column-offset(1);
-      @include make-lg-column(6);
-      @include make-lg-column-offset(3);
-      @include center-block;
-      text-align: center;
-    }
-
-  }
-
   form{
     @include make-xs-column(12);
     @include make-sm-column(12);
@@ -271,6 +211,10 @@ main.contact.container-fluid{
     @include make-md-column-offset(1);
     @include make-lg-column(10);
     @include make-lg-column-offset(1);
+    border: 1px solid #d01919;
+    border-radius: 10px;
+    background-color: $body-bg;
+    padding: 15px;
 
     div.form-group{
       @include make-xs-column(12);
@@ -294,6 +238,9 @@ main.contact.container-fluid{
       @include make-lg-column(10);
       @include make-lg-column-offset(1);
     }
+    label{
+      color: #d01919;
+    }
 
     button.btn.btn-variant{
       @include button-variant(#d01919, #01B236, #000000);
@@ -306,6 +253,10 @@ main.contact.container-fluid{
       @include make-md-column-offset(5);
       @include make-lg-column(2);
       @include make-lg-column-offset(5);
+
+      .glyphicon{
+        font-size: 3em;
+      }
     }
   }
 
