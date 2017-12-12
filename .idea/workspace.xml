@@ -2,45 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be546af0-898d-4249-ac0f-2d60698920bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="$PROJECT_DIR$/googlemap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/http_cdnjs.cloudflare.com_ajax_libs_ekko-lightbox_5.3.0_ekko-lightbox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.12.3_umd_popper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/http_code.jquery.com_jquery-3.2.1.slim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/http_maxcdn.bootstrapcdn.com_bootstrap_4.0.0-beta.2_js_bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/lightbox.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/locations.html" afterPath="$PROJECT_DIR$/locations.html" />
-      <change beforePath="$PROJECT_DIR$/logo-1512480103900.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo-1512480103900.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/logo_1512480103900_gxr_icon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/menu.html" afterPath="$PROJECT_DIR$/menu.html" />
-      <change beforePath="$PROJECT_DIR$/photos.html" afterPath="$PROJECT_DIR$/photos.html" />
-      <change beforePath="$PROJECT_DIR$/photos_page2.html" afterPath="$PROJECT_DIR$/photos_page2.html" />
-      <change beforePath="$PROJECT_DIR$/photos_page3.html" afterPath="$PROJECT_DIR$/photos_page3.html" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/_bootstrap.scss" afterPath="$PROJECT_DIR$/sass/assets/_bootstrap.scss" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_alerts.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_breadcrumbs.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_close.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_code.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_component-animations.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_jumbotron.scss" afterPath="$PROJECT_DIR$/sass/assets/bootstrap/_jumbotron.scss" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_labels.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_media.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_mixins.scss" afterPath="$PROJECT_DIR$/sass/assets/bootstrap/_mixins.scss" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_pager.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_popovers.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_print.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_progress-bars.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_responsive-embed.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_scaffolding.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_tables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_tooltip.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_variables.scss" afterPath="$PROJECT_DIR$/sass/assets/bootstrap/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/_wells.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/bootstrap/mixins/_alerts.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/sass/assets/fried-chicken.jpeg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/sass/assets/style.css" afterPath="$PROJECT_DIR$/sass/assets/style.css" />
       <change beforePath="$PROJECT_DIR$/sass/assets/style.css.map" afterPath="$PROJECT_DIR$/sass/assets/style.css.map" />
       <change beforePath="$PROJECT_DIR$/sass/assets/style.scss" afterPath="$PROJECT_DIR$/sass/assets/style.scss" />
@@ -57,11 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/assets/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -205,7 +176,6 @@
         <option value="$PROJECT_DIR$/lightbox.js" />
         <option value="$PROJECT_DIR$/sass/assets/bootstrap/_jumbotron.scss" />
         <option value="$PROJECT_DIR$/sass/assets/bootstrap/_variables.scss" />
-        <option value="$PROJECT_DIR$/sass/assets/style.scss" />
         <option value="$PROJECT_DIR$/sass/assets/bootstrap/_labels.scss" />
         <option value="$PROJECT_DIR$/sass/assets/bootstrap/_tooltip.scss" />
         <option value="$PROJECT_DIR$/sass/assets/_bootstrap.scss" />
@@ -217,6 +187,7 @@
         <option value="$PROJECT_DIR$/photos_page3.html" />
         <option value="$PROJECT_DIR$/locations.html" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/sass/assets/style.scss" />
       </list>
     </option>
   </component>
@@ -278,6 +249,17 @@
             </path>
             <path>
               <item name="restaurant-css-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant-css-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant-css-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant-css-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant-css-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -331,12 +313,12 @@
       <workItem from="1512637771383" duration="17527000" />
       <workItem from="1512730392924" duration="17773000" />
       <workItem from="1512980262065" duration="18660000" />
-      <workItem from="1513067023592" duration="11581000" />
+      <workItem from="1513067023592" duration="11840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93830000" />
+    <option name="totallyTimeSpent" value="94089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="629" y="36" width="1301" height="744" extended-state="6" />
@@ -594,14 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/assets/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="242" column="5" lean-forward="true" selection-start-line="242" selection-start-column="5" selection-end-line="242" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/assets/bootstrap/_labels.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -793,8 +767,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="42" lean-forward="true" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/assets/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
