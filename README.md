@@ -2,7 +2,7 @@
 
 [Click here to see the instructions](https://github.com/becodeorg/Swartz-promo-3/blob/master/Parcours/03-Bootstrap/projet.md)
 
-![Kobal Fried Chicken logo](img/fried-chicken.jpeg "Logo Kobal Fried Chicken")
+![Kobal Fried Chicken logo](img/logo-1512480103900.png "Logo Kobal Fried Chicken")
 
 # Kobal Fried Chicken
 
