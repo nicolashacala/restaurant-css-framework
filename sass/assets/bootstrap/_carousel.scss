@@ -22,6 +22,8 @@
     > img,
     > a > img {
       @include img-responsive;
+      @include center-block;
+      width: 100%;
       line-height: 1;
     }
 
